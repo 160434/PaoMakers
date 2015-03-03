@@ -1,8 +1,51 @@
-header
-{
+.intro{
 	text-align: center;
-	font-family: "Roboto", Helvetica, sans-serif;
-	font-size: 48px;
+	font-size: 20px;
+	font-family: "Roboto", Helvetica;
 }
 
-intro{}
+.main{
+    background-color: rgb(95,169,43);
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+}
+
+.PaoMakers
+{
+	text-align: center;
+	font-size: 42px;
+	font-family: "Roboto", Helvetica;
+	padding-top: 150px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.navbar a:hover{
+    color: white;
+}
+ul{
+	text-align: center;
+	padding: 10px;
+}
+
+ul li{
+	display: inline;
+	outline-color: black;
+
+}
+
+.menuitem a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding: 10px;
+	margin: 10px;
+
+}
